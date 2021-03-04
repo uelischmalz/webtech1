@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="de">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,19 +9,148 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <style media="screen">
+
+    </style>
+  </head>
+  <body class="bg-info">
+    <div class="container">
+
+      <div class="row">
+        <h1>neues HEM-Modul <span class="badge bg-secondary">F</span> Auszufüllen durch HEM</h1>
+      </div>
+
+        <form>
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+              <label for="angebotsTeil">Teil von Angebot *</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+              <select class="form-select" id="angebotsTeil" aria-label="Default select example">
+                <option selected>Liste</option>
+                <option value="1">Eintrag eins</option>
+                <option value="2">Eintrag zwei</option>
+                <option value="3">Eintrag drei</option>
+              </select>
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F1</span></h4>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+                <label for="name" class="form-label">Name *</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+                <input type="text" class="form-control" id="name">
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F2</span></h4>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+                <label for="description" class="form-label">Beschreibung *</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+                <textarea class="form-control" id="description" rows="3"></textarea>
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F3</span></h4>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+                <label for="start" class="form-label">Start</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+                <input type="date" class="form-control" id="start">
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F4</span></h4>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+                <label for="end" class="form-label">Ende</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+                <input type="date" class="form-control" id="end">
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F5</span></h4>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+              <label for="leitung">Leitung</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+              <select class="form-select" id="leitung" aria-label="Default select example">
+                <option selected>Liste</option>
+                <option value="1">Eintrag eins</option>
+                <option value="2">Eintrag zwei</option>
+                <option value="3">Eintrag drei</option>
+              </select>
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F6</span></h4>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <!--LABEL-->
+            <div class="col-4">
+                <label for="price" class="form-label">Preis</label>
+            </div>
+            <!--FElD-->
+            <div class="col-6">
+                <input type="number" class="form-control" id="price">
+            </div>
+            <!--BADGE-->
+            <div class="col-2">
+              <h4><span class="badge bg-primary">F7</span></h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+
+        </form>
+
+
+      </div>
+
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-    -->
   </body>
 </html>
